@@ -1,0 +1,135 @@
+h2, ul {
+    margin: 0px;
+  }
+
+  #container{
+    background-color: #97b7bf;
+    margin: 0 auto;
+    width: 960px;
+    font-family: lato;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header img{
+      height: 120px; 
+      width: 120px; 
+     
+  }
+  #bio {
+    background-color: #97b7bf;
+    border: 0px solid #9575CD;
+    display: flex;
+    align-items: flex-end;
+  }
+  #bio img{
+    height: 204px;
+    display: flex;
+    flex-basis: auto;
+    padding: 0px 0px 0px 10px;
+    
+  }
+  #namedate h2{
+    font-family: magnoliasky;
+    display: flex;
+    
+  }
+  #bio-details {
+      
+    flex: 1;
+    padding: 0px 10px 0px 10px;
+    
+  }
+  #namedate {
+    font-family: magnoliasky;
+    background-color: #0a3f3e;
+    height: 35px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+    
+  }
+  
+  #dev-list {
+    background-color: #8b9798;
+    padding: 10px;
+    align-self: flex-end;
+  }
+  #dev-list >h3 {
+      color: #8b722c;
+      margin-top: 4px;
+      font-size: 18px;
+      
+  }
+  ul {
+      padding: 0;
+      list-style-position: inside;
+  }
+  h2, time, h3, h4 {
+    color: #8b722c;
+  }
+  time {
+    font-size: 1.5em;
+  }
+  li{
+    color: #cfdddd;
+  }
+  
+  figure {
+    margin: 0px 10px 0px 10px;
+    max-width: 140px;
+    justify-content: space-between;
+    
+  }
+  figure img {
+    height: 140px;
+    width: 140px;
+  }
+  #tech {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  figcaption {
+    border: 0px solid white;
+    color: #cfdddd;
+    background: rgba(2, 2, 2, 0.75);
+    /*max-height: 140px; */ 
+    max-width: 140px;
+    justify-content: space-between;
+    position: relative;
+    bottom: 25px;
+  }
+  #interest{
+    margin: 0px;
+  }
+  #interest h3{
+    margin: 10px;
+    font-size: 1.75em;
+  }
+  h4 {
+      font-size: 1.3em;
+      margin-top: 6px;
+  }
+  
+  #learning {
+    background-color: #8b9798;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  p{
+      margin-top: 0px;
+    color: #cfdddd;
+  }
+  footer{
+    font-size: .5em;
+    text-align: center;
+    color: #0a3f3e;
+  }
